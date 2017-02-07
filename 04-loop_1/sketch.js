@@ -14,10 +14,11 @@ function setup() {
 }
 
 function draw() {
-  background(255);
+  background(200);
   //funcioan como antes pero aqui estan pasando cosas....
   ellipse(x, y, 200, 200); //creamos una ellipse con variables definidas
 
   line(0, 0, width, height); //posicion arranca en 0.0 y el tamaño igual que el width/height
+  console.log("que es esto: "+ width);
   line(width, 0, 0, height); //a la contra
 }

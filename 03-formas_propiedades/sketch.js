@@ -11,10 +11,10 @@ function setup(){
   rect(250, 250, 300, 300); // pintamos otro rectangulo
 
   fill(200, 100);
-  stroke(255, 0, 0, 100);
+  stroke(25, 5, 0, 0, 100);
   rect(150, 150, 300, 300);
 }
 
 function draw(){
-// :( no seas impaciencte. 
+// :( no seas impaciencte.
 }

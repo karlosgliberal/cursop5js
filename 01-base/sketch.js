@@ -5,9 +5,9 @@
 // revisa el p5 github. https://github.com/processing/p5.js/wiki/Frequently-Asked-Questions#why-cant-i-assign-variables-using-p5-functions-and-variables-before-setup
 function setup(){
   createCanvas(1024, 768);
-  rect(10, 10, 1004, 748);
+  rect(40, 40, 1004, 748);
 }
 
 function draw(){
-// Lo usaremos despues 
+// Lo usaremos despues
 }

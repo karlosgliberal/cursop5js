@@ -15,7 +15,7 @@ function draw() {
         line(x + i, y, x + i, y + 12);
       }
       //metemos un poco de interacción
-      line(x, y, x + 12, y + 12); //juguemos con mouseX y mouseY
+      line(x, y, x + mouseY, y + mouseX); //juguemos con mouseX y mouseY
     }
   }
 }
