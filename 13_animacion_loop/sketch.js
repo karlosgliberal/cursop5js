@@ -16,11 +16,11 @@ function draw() {
   fill(100);
   ellipse(x+100, y, 24, 24);
   ellipse(x+200, y, 24, 24);
-  ellipse(x+200, y, 24, 24);
+  ellipse(x+400, y, 24, 24);
   ellipse(x+300, y, 24, 24);
 
   // Movemos en eje horizontal de forma loca (aleatoria)
-  x = x + random(-1, 1);
+  x = x + random(-10, 10);
   // movemos para arriba de forma constante
   y = y - 1;
 

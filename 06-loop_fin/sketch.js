@@ -16,8 +16,8 @@ function draw() {
 
   // Descomenta el bucle para pintar un gradiante.
   // de negro a blanco
-  for (var i = 0; i < width; i++){
-    stroke(i/width * 255);
-    line(i, 0, i, height);
-  }
+  // for (var i = 0; i < width; i++){
+  //   stroke(i/width * 255);
+  //   line(i, 0, i, height);
+  // }
 }
